@@ -53,6 +53,6 @@ n in the phone book. Thus, the execution time is O(n).
 
 1.6 You need to read the phone numbers of all the people whose last names start with the letter “A”. (Trick question! It 
 involves concepts that are discussed in more detail in Chapter 4. Read the answer - it will probably surprise you!)
-Answer: Î(n)
+Answer: O(n)
 
 '''
