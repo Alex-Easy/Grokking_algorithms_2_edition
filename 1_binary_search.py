@@ -35,7 +35,7 @@ new list size = 256
 log2(256) = 8
 Answer: the maximum number of checks will increase to 8. 
 
-Give the “Big O” runtime for each of the following scenarios.
+Give the ï¿½Big Oï¿½ runtime for each of the following scenarios.
 
 1.3 Got a last name, need to find the number in the phone book.
 Answer: In most real-world scenarios, the phonebooks are sorted, so a binary search with a run time of 
@@ -51,7 +51,7 @@ This requires an O(n) linear search
 Answer: The number of operations depends directly on the number of entries 
 n in the phone book. Thus, the execution time is O(n).
 
-1.6 You need to read the phone numbers of all the people whose last names start with the letter “A”. (Trick question! It 
+1.6 You need to read the phone numbers of all the people whose last names start with the letter ï¿½Aï¿½. (Trick question! It 
 involves concepts that are discussed in more detail in Chapter 4. Read the answer - it will probably surprise you!)
 Answer: O(n)
 
