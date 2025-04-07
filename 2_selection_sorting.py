@@ -37,9 +37,9 @@ Solution:
 Inserting into an array is slow. Also, if you use binary search to find user names, the array must be sorted.
 
 2.5
-In reality, Facebook uses neither an array nor a linked list to store information about users. Consider a hybrid data structure: an array of linked lists. There is an array of 26 elements. Each element contains a reference to a linked list. For example, the first element of the array points to a linked list of all usernames beginning with the letter �A�. The second element points to a linked list of all usernames beginning with the letter �B�, and so on.
-Suppose a user named �Adit B� registers on Facebook and you want to add him to a list. You access element 1 of the array, find the linked list of element 1 and add �Adit B� to the end of the list. Now suppose you want to register the user �Zakhir H�. You access element 26 which contains the linked list of all names starting with �Z� and check whether �Zakhir H� is present in this list.
-Now compare this hybrid data structure with arrays and linked lists. Will it be faster or slower than each original structure when searching and inserting? You don't need to cite �O-big�, just choose one of the two: faster or slower.
+In reality, Facebook uses neither an array nor a linked list to store information about users. Consider a hybrid data structure: an array of linked lists. There is an array of 26 elements. Each element contains a reference to a linked list. For example, the first element of the array points to a linked list of all usernames beginning with the letter A. The second element points to a linked list of all usernames beginning with the letter B, and so on.
+Suppose a user named Adit B registers on Facebook and you want to add him to a list. You access element 1 of the array, find the linked list of element 1 and add Adit B to the end of the list. Now suppose you want to register the user Zakhir H. You access element 26 which contains the linked list of all names starting with Z and check whether Zakhir H is present in this list.
+Now compare this hybrid data structure with arrays and linked lists. Will it be faster or slower than each original structure when searching and inserting? You don't need to cite O-big, just choose one of the two: faster or slower.
 Solution:
 Hybrid structure compromise:
 ? Better than a pure list when searching (spacing is faster).
